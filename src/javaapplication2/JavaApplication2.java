@@ -17,6 +17,8 @@ public int increment() {
 }
 public int decrement() {
     ++count;
-   return count -= 1;}
+   
+count=1;
+return count -= 1;}
     
 }
